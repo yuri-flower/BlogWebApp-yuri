@@ -1,0 +1,29 @@
+article {
+  padding: 30px;
+}
+
+section {
+  padding: 10px;
+}
+
+section > h1 {
+  padding-bottom: 20px;
+}
+
+section > p {
+  line-height: 2rem;
+}
+
+section > ul {
+  padding-left: 30px;
+}
+
+section > ul > li {
+  list-style: square;
+}
+
+section > ul > li > a {
+  text-transform: none;
+  font-weight: normal;
+  text-decoration: underline;
+}

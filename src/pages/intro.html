@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Intro to Frontend</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="intro.css">
+</head>
+
+<body>
+  <!-- Header starts -->
+  <header>
+    <img src="../assets/logo.png" alt="logo" height="50" width="50" />
+    <nav>
+      <a href="#" id="menu-icon"></a>
+      <ul>
+        <!-- <li><a href="./index.html">Home</a></li>
+        <li><a href="./intro.html">Intro</a></li>
+        <li><a href="./dom.html">DOM</a></li>
+        <li><a href="./outro.html" class="current">Outro</a></li>
+        <li><a href="https://www.mercari.com/jp">Mercari</a></li> -->
+        <li>
+          <a href="./index.html">
+            <div class="swiggleBox">
+              Home
+              <svg width="65" height="33" viewBox="0 0 130 65" xmlns="http://www.w3.org/2000/svg" buttom: 5px; padding: 1px;>
+                <path d="M0.6,0.5c0,5.4,0,61.5,0,61.5s4.5,5.4,9.9,0c5.4-5.4,9.9,0,9.9,0s4.5,5.4,9.9,0c5.4-5.4,9.9,0,9.9,0
+                s4.5,5.4,9.9,0c5.4-5.4,9.9,0,9.9,0s4.5,5.4,9.9,0c5.4-5.4,9.9,0,9.9,0s4.5,5.4,9.9,0c5.4-5.4,9.9,0,9.9,0s4.5,5.4,9.9,0
+                c5.4-5.4,9.9,0,9.9,0s4.5,5.4,9.9,0c0,0,0-56.1,0-61.5H0.6z" />
+              </svg>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="./intro.html">
+            <div class="swiggleBox">
+              Intro
+              <svg width="65" height="33" viewBox="0 0 130 65" xmlns="http://www.w3.org/2000/svg" buttom: 5px;>
+                <path d="M0.6,0.5c0,5.4,0,61.5,0,61.5s4.5,5.4,9.9,0c5.4-5.4,9.9,0,9.9,0s4.5,5.4,9.9,0c5.4-5.4,9.9,0,9.9,0
+                s4.5,5.4,9.9,0c5.4-5.4,9.9,0,9.9,0s4.5,5.4,9.9,0c5.4-5.4,9.9,0,9.9,0s4.5,5.4,9.9,0c5.4-5.4,9.9,0,9.9,0s4.5,5.4,9.9,0
+                c5.4-5.4,9.9,0,9.9,0s4.5,5.4,9.9,0c0,0,0-56.1,0-61.5H0.6z" />
+              </svg>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="./dom.html">
+            <div class="swiggleBox">
+              Dom
+              <svg width="65" height="33" viewBox="0 0 130 65" xmlns="http://www.w3.org/2000/svg" buttom: 5px;>
+                <path d="M0.6,0.5c0,5.4,0,61.5,0,61.5s4.5,5.4,9.9,0c5.4-5.4,9.9,0,9.9,0s4.5,5.4,9.9,0c5.4-5.4,9.9,0,9.9,0
+                s4.5,5.4,9.9,0c5.4-5.4,9.9,0,9.9,0s4.5,5.4,9.9,0c5.4-5.4,9.9,0,9.9,0s4.5,5.4,9.9,0c5.4-5.4,9.9,0,9.9,0s4.5,5.4,9.9,0
+                c5.4-5.4,9.9,0,9.9,0s4.5,5.4,9.9,0c0,0,0-56.1,0-61.5H0.6z" />
+              </svg>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="./outro.html">
+            <div class="swiggleBox">
+              Outro
+              <svg width="65" height="33" viewBox="0 0 130 65" xmlns="http://www.w3.org/2000/svg" buttom: 5px;>
+                <path d="M0.6,0.5c0,5.4,0,61.5,0,61.5s4.5,5.4,9.9,0c5.4-5.4,9.9,0,9.9,0s4.5,5.4,9.9,0c5.4-5.4,9.9,0,9.9,0
+                s4.5,5.4,9.9,0c5.4-5.4,9.9,0,9.9,0s4.5,5.4,9.9,0c5.4-5.4,9.9,0,9.9,0s4.5,5.4,9.9,0c5.4-5.4,9.9,0,9.9,0s4.5,5.4,9.9,0
+                c5.4-5.4,9.9,0,9.9,0s4.5,5.4,9.9,0c0,0,0-56.1,0-61.5H0.6z" />
+              </svg>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.mercari.com/jp" target="_blank">
+            <div class="swiggleBox">
+              Mercari
+              <svg width="65" height="33" viewBox="0 0 130 65" xmlns="http://www.w3.org/2000/svg" buttom: 5px;>
+                <path d="M0.6,0.5c0,5.4,0,61.5,0,61.5s4.5,5.4,9.9,0c5.4-5.4,9.9,0,9.9,0s4.5,5.4,9.9,0c5.4-5.4,9.9,0,9.9,0
+                s4.5,5.4,9.9,0c5.4-5.4,9.9,0,9.9,0s4.5,5.4,9.9,0c5.4-5.4,9.9,0,9.9,0s4.5,5.4,9.9,0c5.4-5.4,9.9,0,9.9,0s4.5,5.4,9.9,0
+                c5.4-5.4,9.9,0,9.9,0s4.5,5.4,9.9,0c0,0,0-56.1,0-61.5H0.6z" />
+              </svg>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <article>
+      <section>
+        <h1>1. What is Frontend?</h1>
+        <p>Usually means frontend web programming</p>
+        <p>ユーザが、直接に操作する画面を構築することです</p>
+      </section>
+      <section>
+        <h1>2. What languages do we use to code frontend?</h1>
+        <ul>
+          <li>HTML (HyperText Markup Language): ウェブページの文を意味と役割を付ける言語です</li>
+          <li>CSS (Cascading Style Sheets): ウェブページのスタイルを指定するための言語です</li>
+          <li>Javascript: ウェブページに動きや対話性を付加するための言語です</li>
+        </ul>
+      </section>
+      <section>
+        <h1>3. What are sass, less, coffeescript, etc.?</h1>
+        <ul>
+          <li>HTML: <a href="https://pugjs.org/language/plain-text.html">.pug</a>, <a
+              href="https://www.stuartellis.name/articles/erb/">.erb</a>, <a
+              href="https://www.w3schools.com/php/php_syntax.asp">.php</a></li>
+          <li>CSS: <a href="https://sass-lang.com/">Sass/Less</a>, <a href="https://stylus-lang.com/">stylus</a></li>
+          <li>Javascript: <a href="https://coffeescript.org/">coffeescript</a>, <a
+              href="https://www.typescriptlang.org/">typescript</a></li>
+          <li>Browser can only understand HTML, CSS and Javascript, all these languages above will be compiled down to
+            HTML, CSS, and Javascript.</li>
+        </ul>
+      </section>
+    </article>
+  </main>
+
+  <!-- Footer starts-->
+  <footer>
+    <!-- Copyright -->
+    <div class="footer-copyright text-center">&copy; Developed with Yuri Hayashi, ❤️</i>&nbsp; by
+      <!-- HTML Entities https://www.w3schools.com/html/html_entities.asp -->
+      <a href="https://github.com/myt588/BUILD-Frontend" class="white-text">Build@2020</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+</body>
+
+</html>
